@@ -1,0 +1,12 @@
+version: 1.0.0
+ignore:
+  - id: benphelps/homepage-1
+    username: tsaekao@endor.ai@google@api-key
+    update_time: 2026-03-24 19:01:35 UTC
+    finding_name: 'GHSA-52f5-9888-hmc6: tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter'
+    parent_name: npm://homepage@1.2.0
+    dependency_name: npm://tmp@0.2.3
+    vuln_id: GHSA-52f5-9888-hmc6
+    extra_key: GHSA-52f5-9888-hmc6
+    reason: risk-accepted
+    comments: Subdirectory ignore - tmp arbitrary write

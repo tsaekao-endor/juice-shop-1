@@ -1,0 +1,12 @@
+version: 1.0.0
+ignore:
+  - id: benphelps/homepage-1
+    username: tsaekao@endor.ai@google@api-key
+    update_time: 2026-03-24 19:01:29 UTC
+    finding_name: 'GHSA-pq67-2wwv-3xjx: tar-fs Vulnerable to Link Following and Path Traversal via Extracting a Crafted tar File'
+    parent_name: npm://homepage@1.2.0
+    dependency_name: npm://tar-fs@2.0.1
+    vuln_id: GHSA-pq67-2wwv-3xjx
+    extra_key: GHSA-pq67-2wwv-3xjx
+    reason: risk-accepted
+    comments: Root ignore file - tar-fs path traversal
